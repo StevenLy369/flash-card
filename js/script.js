@@ -1,6 +1,10 @@
 $(document).ready(function(){
-    $("h2").click(function(){
-        $(".answer-showing").show();
+    $("div").click(function(){
+        // $(this).children("h2").toggle();
+        $(this).children("p").toggle();
+
+        // $("p").removeClass(".answer-showing");
+        // $(this).toggleClass(".answer-showing");
         
 
 
